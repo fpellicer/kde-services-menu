@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+MimeType=application/vnd.oasis.opendocument.text;application/vnd.oasis.opendocument.spreadsheet;application/vnd.oasis.opendocument.graphics;application/vnd.oasis.opendocument.presentation
+Actions=libreOffice2pdf
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+
+[Desktop Action libreOffice2pdf]
+Name=Export LibreOffice Document to PDF
+Name[es]=Exportar documentos LibreOffice a PDF
+Icon=document-export
+Exec=/usr/bin/libreoffice --headless --convert-to pdf %F
+
