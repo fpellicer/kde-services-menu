@@ -7,6 +7,7 @@ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 [Desktop Action libreOffice2pdf]
 Name=Export LibreOffice Document to PDF
 Name[es]=Exportar documentos LibreOffice a PDF
+Name[ca]=Exportar documents LibreOffice a PDF
 Icon=document-export
 Exec=/usr/bin/libreoffice --headless --convert-to pdf %F
 

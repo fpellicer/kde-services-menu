@@ -5,21 +5,25 @@ Actions=pdfShrinkEbook;pdfShrinkScreen;pdfShrinkHigh;
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 X-KDE-Submenu=Reduce PDFs file size
 X-KDE-Submenu[es]=Reducir tamaño de archivos PDF
+X-KDE-Submenu[ca]=Reduir grandària d'arxius PDF
 
 [Desktop Action pdfShrinkEbook]
 Name=Shrink PDFs (Normal)
 Name[es]=Reducir PDFs (Normal)
+Name[ca]=Reduir PDFs (Normal)
 Icon=zoom-out
 Exec=pdfshrink-plasma.sh ebook %f
 
 [Desktop Action pdfShrinkScreen]
 Name=Shrink PDFs (Medium)
 Name[es]=Reducir PDFs (Medio)
+Name[ca]=Reduir PDFs (Mig)
 Icon=zoom-out
 Exec=pdfshrink-plasma.sh screen %f
 
 [Desktop Action pdfShrinkHigh]
 Name=Shrink PDFs (High)
 Name[es]=Reducir PDFs (Alto)
+Name[ca]=Reduir PDFs (Alt)
 Icon=zoom-out
 Exec=pdfshrink-plasma.sh high %f
