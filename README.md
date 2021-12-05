@@ -4,6 +4,13 @@ Diversos Service Menus para KDE Plasma5
 
 ## Instalación
 
+### Instalador
+
+- Doble click sobre el archivo `install.sh` y seleccionar la opción **ejecutar**.
+- Seleccionar las opciones deseadas para instalar y **aceptar**.
+
+### Instalación manual
+
 Desde el directorio descargado `kde-services-menu`, abrir un terminal en Dolphin (Tecla `F4`).
 
 - Copia los archivos `*.desktop` a `~/.local/share/kservices5/ServiceMenus/` (crea el directorio si no existe).
